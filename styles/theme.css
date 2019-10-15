@@ -1,0 +1,71 @@
+main>div:first-child {
+  background-color: rgb(42, 200, 253);
+}
+main>div:nth-child(2) {
+  background-color: turquoise;
+}
+
+#cd div:first-child {
+  background-color:lightblue;
+}
+
+#cd div:last-child {
+  background-color: rgb(13, 145, 131)
+}
+
+#efgh div{
+  background-color:cyan;
+}
+
+#efgh div:nth-child(2){
+  background-color:rgb(46, 139, 111);
+}
+
+#efgh div:nth-child(3){
+  background-color:rgb(34, 184, 164);
+}
+
+#efgh div:nth-child(4){
+  background-color:rgb(114, 228, 209);
+}
+
+main>div:last-child {
+  background-color: rgb(57, 102, 98);
+}
+
+@media only screen and (min-width: 768px) {
+  main>div:first-child {
+    background-color: coral;
+  }
+  main>div:nth-child(2) {
+    background-color: orange;
+  }
+  
+  #cd div:first-child {
+    background-color:salmon;
+  }
+  
+  #cd div:last-child {
+    background-color: rgb(192, 115, 43);
+  }
+  
+  #efgh div{
+    background-color:lightsalmon;
+  }
+  
+  #efgh div:nth-child(2){
+    background-color:darkorange;
+  }
+  
+  #efgh div:nth-child(3){
+    background-color:orangered;
+  }
+  
+  #efgh div:nth-child(4){
+    background-color:rgb(221, 107, 41);
+  }
+  
+  main>div:last-child {
+    background-color: rgb(190, 96, 62);
+  }
+}

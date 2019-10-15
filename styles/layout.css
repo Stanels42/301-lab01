@@ -1,0 +1,76 @@
+/* centerBlock cd efgh */
+div {
+  outline: solid 1px black;
+  text-align: center;
+}
+
+main>div:first-child {
+  margin-top: 50px;
+  height: 75px;
+  line-height: 75px;
+}
+main>div:nth-child(2) {
+  height: 150px;
+  line-height: 150px;
+}
+
+#cd div {
+  height: 125px;
+  line-height:125px;
+}
+
+#efgh div{
+  height:250px;
+  width:50%;
+  line-height:250px;
+  float:left;
+}
+
+#efgh {
+  outline: solid 1px black;
+  overflow: auto;
+}
+
+main>div:last-child {
+  height: 80px;
+  line-height: 80px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  main>div:first-child {
+    height: 100px;
+    line-height: 100px;
+  }
+  main>div:nth-child(2) {
+    height: 600px;
+    line-height: 600px;
+    width: 200px;
+    float: left;
+  }
+  
+  #cd div {
+    height: 200px;
+    line-height: 200px;
+    width:380px;
+    float: left;
+  }
+  
+  #efgh div{
+    width:190px;
+    float:left;
+  }
+  
+  #efgh {
+    outline: solid 1px black;
+    overflow: auto;
+    float: left;
+  }
+  
+  main>div:last-child {
+    height: 150px;
+    line-height: 150px;l
+    width: 760px;
+    float:right;
+  }
+}
