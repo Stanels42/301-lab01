@@ -1,0 +1,12 @@
+body {
+  width: 480px;
+  margin: 0 auto;
+  background-color: coral;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 960px;
+    background-color: teal;
+  }
+}
