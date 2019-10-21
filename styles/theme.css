@@ -5,11 +5,11 @@ nav {
   background-color: turquoise;
 }
 
-article {
+div > article {
   background-color:lightblue;
 }
 
-article:last-of-type() {
+div > article:last-child {
   background-color: rgb(13, 145, 131)
 }
 
@@ -41,11 +41,11 @@ footer {
     background-color: orange;
   }
   
-  article {
+  div > article {
     background-color:salmon;
   }
   
-  article:last-of-type {
+  div > article:last-child {
     background-color: rgb(192, 115, 43);
   }
   
