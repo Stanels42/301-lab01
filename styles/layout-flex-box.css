@@ -3,6 +3,13 @@ body {
   text-align: center;
 }
 
+body * {
+  outline: solid 1px black;
+}
+p {
+  height: 100%;
+}
+
 header {
   height: 75px;
   line-height: 75px;
