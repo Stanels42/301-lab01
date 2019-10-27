@@ -4,7 +4,14 @@ body {
   background-color: coral;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  body {
+    width: 100%;
+    background-color: burlywood;
+  }
+}
+
+@media only screen and (min-width: 960px) {
   body {
     width: 960px;
     background-color: teal;
