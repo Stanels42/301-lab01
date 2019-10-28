@@ -33,7 +33,44 @@ footer {
   background-color: rgb(57, 102, 98);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  header {
+    background-color: green;
+  }
+  nav {
+    background-color: seagreen;
+  }
+  
+  div > article {
+    background-color:lightgreen;
+  }
+  
+  div > article:last-child {
+    background-color: rgb(0, 71, 0)
+  }
+  
+  section article{
+    background-color:rgb(49, 255, 59);
+  }
+  
+  section article:nth-child(2){
+    background-color:rgb(5, 133, 69);
+  }
+  
+  section article:nth-child(3){
+    background-color:rgb(78, 133, 33);
+  }
+  
+  section article:nth-child(4){
+    background-color:rgb(62, 116, 83);
+  }
+  
+  footer {
+    background-color: rgb(4, 88, 30);
+  }
+}
+
+@media only screen and (min-width: 960px) {
   header {
     background-color: coral;
   }

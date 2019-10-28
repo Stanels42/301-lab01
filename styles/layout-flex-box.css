@@ -42,7 +42,7 @@ footer {
   line-height: 80px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 959px) {
   header {
     height: 100px;
   }
@@ -83,5 +83,11 @@ footer {
     width: 760px;
     height: 150px;
     line-height: 150px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  body {
+    width: 960px;
   }
 }
